@@ -10,7 +10,7 @@ FORKED FROM jujhars13/docker-ssh-tunnel but reversed the tunnel direction.
 
 ## Perks
 
- - Stay up to date (with weekly builds that ensure that OpenSSH is up to date)
+ - Stay up to date (with monthly builds that ensure that OpenSSH is up to date)
 
  - Lightweight
 
