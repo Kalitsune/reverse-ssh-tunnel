@@ -25,4 +25,4 @@ echo "starting SSH Reverse proxy $REMOTE_IP:$REMOTE_PORT -> $LOCAL_IP:$LOCAL_POR
 -R $REMOTE_IP:$REMOTE_PORT:$LOCAL_IP:$LOCAL_PORT \
 $SSH_USER@$GATEWAY_IP \
 -p $SSH_PORT \
--i /ssh_key/ed_key
+-i /ssh_key

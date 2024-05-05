@@ -8,7 +8,7 @@ services:
       - nginx-hello
       - openssh-server
     volumes:
-      - ./ssh/ed_key:/ssh_key/ed_key:ro \
+      - ./ssh/ed_key:/ssh_key:ro \
     environment:
       - SSH_PORT=2222
       - SSH_USER=proxy
